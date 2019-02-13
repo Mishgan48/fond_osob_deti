@@ -1,0 +1,252 @@
+/* CSS Document */
+
+/* Глобальные стили */
+html, body {
+	margin: 0;
+}
+body {
+	width: 100%;
+	font-family: 'Panton';
+	font-size: 1.2vw;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+section {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 0;
+	padding: 3.7vw 0 1vw 0;
+	font-size: 2.4vw;
+}
+h2 {
+	font-size: 2.9vw;
+	color: #fff;
+	letter-spacing: 0.2vw;
+	z-index: 999;
+}
+.blue {
+	color: #26b5ea;
+	font-family: 'Panton_bold';
+}
+.big {
+	font-size: 1.7vw;
+}
+
+/* Верхушка */
+.header_content {
+	width: 90%;
+	margin: 0 5%;
+	display: flex;
+}
+.header_content_block {
+	width: 33.33333%;
+	text-align: center;
+}
+.header_img{
+	width: 80%;
+	padding: 1vw 20% 0 0;
+}
+.header_phone {
+	width: 100%;
+	padding: 3.5vw 0 0 0;
+	font-size: 2vw;
+	text-align: right;
+}
+.header_social_link {
+	width: 32%;
+	padding-left: 68%;
+	display: flex;
+}
+.header_social_icon {
+	width: 22%;
+	margin: 0.8vw auto 0 auto;
+}
+
+/* Меню */
+nav {
+	width: 100%;
+}
+nav ul {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 90%;
+	margin: 1.5vw 5%;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	margin: 0 auto;
+	text-decoration: none;
+	font-size: 1.6vw;
+}
+nav a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.6vw;
+}
+.border_left {
+	border-left: solid 1px #000;
+}
+
+/* Блок с общей информацией */
+.info_block,
+.help_block {
+	display: flex;
+	width: 95%;
+}
+.info_block {
+	margin: 0 0 0 5%;
+}
+.info_text_block {
+	width: 45%;
+	padding: 10% 1% 0 0;
+	text-align: center;
+	font-size: 1.3vw;
+}
+.info_img_block {
+	width: 54%;
+}
+
+/* Блок с смс и банком */
+.help_block {
+	margin: 1vh 5% 0 0;
+}
+.help_img_block {
+	width: 40%;
+}
+.help_text_block {
+	width: 60%;
+}
+.help_message {
+	width: 70%;
+	padding: 3% 15% 2% 15%;
+	background-image: url('../img/help_bg.png');
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	text-align: center;
+	font-size: 1.3vw;
+}
+.help_message p {
+	margin: 1.1vw 0 0.2vw 0;
+	padding: 0;
+}
+.help_message a {
+	color: #000;
+	font-size: 0.9vw;
+}
+.help_bank {
+	width: 83%;
+	margin: 0 5% 0 12%;
+	font-size: 1.3vw;
+}
+.help_bank_info {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.help_bank_title {
+	width: 100%;
+	padding: 1.6vw 0;
+	font-size: 1.4vw;
+}
+.help_bank_item {
+	width: 50%;
+}
+
+/* Блок с новостями */
+.news_block {
+	display: flex;
+	width: 90%;
+	margin: 2vw 5%;
+}
+.news_block_item {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+}
+.news_block_img {
+	width: 100%;
+}
+.news_title {
+	width: 100%;
+	font-size: 1.2vw;
+	letter-spacing: 0.1vw;
+	font-family: 'Panton_bold';
+}
+.news_date {
+	width: 100%;
+	font-size: 1vw;
+}
+.news_block_small {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin-left: 10%;
+}
+.news_block_item_small {
+	width: 45%;
+	margin: 0 auto 1vw auto;
+}
+
+/* Поможем детям */
+.help_kids {
+	width: 100%;
+	position: relative;
+}
+.help_kids_title {
+	position: absolute;
+	right: 5%;
+	top: 20%;
+}
+
+/* Футер */
+footer {
+	width: 100%;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+.footer_img {
+	width: 15%;
+	margin: 0 0 0 5%;
+}
+.footer_menu {
+	width: 60%;
+	margin: 2vw 5% 0 15%;
+}
+.footer_menu ul {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.footer_menu li {
+	margin: 0 auto;
+	text-decoration: none;
+	font-size: 1.2vw;
+}
+.footer_menu a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2vw;
+}
+
+@font-face {
+	font-family: 'Panton';
+	src: url('../fonts/Panton/Panton-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Panton_bold';
+	src: url('../fonts/Panton/Panton-Bold.otf');
+	font-style: normal;
+}
