@@ -287,10 +287,11 @@ footer {
 	display: flex;;
 }
 .programm_block__img {
-	width: 35%;
+	width: 25%;
 }
 .programm_block__info {
-	padding-left: 4%;
+	width: 70%;
+	padding-left: 5%;
 	font-size: 1.1vw;
 }
 .programm_block__info span {
@@ -306,6 +307,23 @@ footer {
 }
 .programm_img__text {
 	position: absolute;
+	width: 34%;
+	color: #fff;
+	font-size: 1.2vw;
+	letter-spacing: 0.1vw;
+}
+.programm_img__text span {
+	font-size: 1.6vw;
+	letter-spacing: 0.1vw;
+	font-family: 'Panton_bold';
+}
+.programm_left {
+	top: 2vw;
+	left: 18%;
+}
+.programm_right {
+	top: 2vw;
+	right: 13%;
 }
 
 @font-face {
